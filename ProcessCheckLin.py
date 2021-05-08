@@ -1,27 +1,27 @@
 """
 
         .SYNOPSIS
-          To check CPU utilisation.
+          To check process running with root user.
 
         .DESCRIPTION
-          The script will check the CPU utilisation
+          The script will check the process running with root user.
 
         .INPUTS
           Inputs are coming by CMD Line argument - Server, User, Password
 
         .OUTPUT
-          A Outupt will be sent to the workflow with CPU utilisation.
+          A Outupt will be sent to the workflow with process list.
           output = {"retCode" : "1", "result" : "NULL", "retDesc" : "output"}
           
 
         .EXAMPLE
-                  > python E:\Linux_HighCPU_v1.0.py --Server=SERVERNAME --User=USERNAME --Password=PASSWORD  
+                  > python E:\ProcessCheckLin_v1.0.py --Server=SERVERNAME --User=USERNAME --Password=PASSWORD  
                            
 
          
         .NOTES
 
-          Script Name    : Linux_HighCPU_v1.0.py
+          Script Name    : ProcessCheckLin_v1.0.py
           Script Version : 1.0
           Author         : Nikhil Kumar
           Creation Date  : 16-06-2020
